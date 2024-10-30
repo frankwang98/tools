@@ -121,7 +121,7 @@ onMounted(() => {
           remote-show-suffix
           :suffix-transition="false"
           :suffix-icon="Search"
-          placeholder="输入关键词搜索，如文本、json、图片等"
+          placeholder="输入关键词搜索，如文本、图片、json、js等"
           :remote-method="searchTools"
           :loading="loading"
           class="ml-3"
@@ -141,7 +141,7 @@ onMounted(() => {
 
     <div class=" w-full md:w-auto flex md:block c-xs:w-auto">
       <ul class="flex mt-4 flex-col md:flex-row md:mt-0 justify-end items-center c-xs:mt-0">
-        <!-- about -->
+        <!-- about 关于 -->
          <li class="ml-3 c-xs:hidden">
           <router-link to="/about">
             <el-tooltip
@@ -154,7 +154,7 @@ onMounted(() => {
             </el-tooltip>
           </router-link>
         </li>
-        <!-- github -->
+        <!-- github 仓库 -->
         <li class="ml-3">
           <el-tooltip
               class="box-item"
@@ -168,6 +168,7 @@ onMounted(() => {
           </el-tooltip>
         </li>
 
+        <!-- 保存到桌面 -->
         <li class="hover:text-blue-500 c-xs:hidden">
           <el-button type="primary" class="ml-3 bg-gradient-to-r from-cyan-500 to-blue-500" @click="createUrlShortcut">保存到桌面</el-button>
         </li>

@@ -67,7 +67,7 @@ const copyRes = async (resStr: string) => {
     <!-- desc -->
     <ToolDetail title="描述">
       <el-text>
-        在线UUID批量生成
+        在线UUID批量生成，可复制
       </el-text> 
     </ToolDetail>
 

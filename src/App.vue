@@ -1,11 +1,12 @@
 <script setup lang="ts">
+// 引入页面布局
 import Header from '@/components/Layout/Header/Header.vue'
 import Left from '@/components/Layout/Left/Left.vue'
 import Floor from '@/components/Layout/Floor/Floor.vue'
 // import Right from '@/components/Layout/Right/Right.vue'
 import { useComponentStore } from '@/store/modules/component'
 
-//store
+// store 部件存储
 const componentStore = useComponentStore()
 
 </script>

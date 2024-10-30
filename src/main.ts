@@ -19,13 +19,14 @@ import { setupMdEditor } from './plugins/v-md-editor'
 //default-passive-events
 import 'default-passive-events'
 
-
+// 程序开始
 const app = createApp(App)
-//安装仓库
+// 安装仓库
 app.use(pinia)
 app.use(router)
 app.use(ElementPlus, {
   locale: zhCn
 })
 setupMdEditor(app)
+// 挂载
 app.mount('#app')

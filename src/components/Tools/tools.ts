@@ -10,6 +10,15 @@ export function getToolsCate() {
       list: [
         {
           id: 1,
+          title: 'MQTT测试',
+          logo: '/images/logo/keywords.png',
+          desc: 'MQTT测试',
+          url: '/mqtt/',
+          cateId: 2,
+          cate: '开发运维',
+        },
+        {
+          id: 1,
           title: '随机密码生成',
           logo: '/images/logo/keywords.png',
           desc: '密码生成器、随机字符串生成,批量生成',
