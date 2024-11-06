@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { reactive, onMounted, onBeforeUnmount } from 'vue'
+import { reactive } from 'vue'
 import DetailHeader from '@/components/Layout/DetailHeader/DetailHeader.vue'
 import ToolDetail from '@/components/Layout/ToolDetail/ToolDetail.vue'
-import { copy } from '@/utils/string'
+// import { copy } from '@/utils/string'
 import { ElMessage } from 'element-plus'
 import { ref } from 'vue' // 确保这里导入了 ref
 import mqtt from 'mqtt'
