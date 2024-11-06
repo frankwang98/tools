@@ -431,16 +431,16 @@ export const constantRoute = [
       description: '在线富文本编辑, html实时预览，在线编辑文本，文本编辑获取html',
     }
   },
-  {
-    path: '/mqtt',
-    component: () => import('@/components/Tools/MQTT/MQTT.vue'),
-    name: 'MQTT',
-    meta: {
-      title: "MQTT测试",
-      keywords: 'MQTT测试',
-      description: 'MQTT测试',
-    }
-  },
+  // {
+  //   path: '/mqtt',
+  //   component: () => import('@/components/Tools/MQTT/MQTT.vue'),
+  //   name: 'MQTT',
+  //   meta: {
+  //     title: "MQTT测试",
+  //     keywords: 'MQTT测试',
+  //     description: 'MQTT测试',
+  //   }
+  // },
   // 关于
   {
     path: '/about',

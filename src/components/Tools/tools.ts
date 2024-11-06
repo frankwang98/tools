@@ -8,15 +8,15 @@ export function getToolsCate() {
       title: '开发运维',
       icon: '',
       list: [
-        {
-          id: 1,
-          title: 'MQTT测试',
-          logo: '/images/logo/keywords.png',
-          desc: 'MQTT测试',
-          url: '/mqtt/',
-          cateId: 2,
-          cate: '开发运维',
-        },
+        // {
+        //   id: 1,
+        //   title: 'MQTT测试',
+        //   logo: '/images/logo/keywords.png',
+        //   desc: 'MQTT测试',
+        //   url: '/mqtt/',
+        //   cateId: 2,
+        //   cate: '开发运维',
+        // },
         {
           id: 1,
           title: '随机密码生成',

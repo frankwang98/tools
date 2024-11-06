@@ -30,7 +30,9 @@
 
 ## 功能展示
 
-在线站点：<a href="https://tools.ranblogs.com" target="_blank">Tools-Web</a>
+来源于开源工具模板，二次开发部署学习。[https://github.com/naroat/tools-web]
+
+原作者的在线站点：<a href="https://tools.ranblogs.com" target="_blank">Tools-Web</a>
 
 ## 开始使用
 

@@ -21,7 +21,7 @@
     "noFallthroughCasesInSwitch": true,
 
     // Element Plus全局组件类型声明
-    "types": ["element-plus/global"],
+    "types": ["element-plus/global", "node"],
     //解析非相对模块的基地址，默认是当前目录
     "baseUrl": "./",  
     //路径映射，相对于baseUrl

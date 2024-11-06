@@ -7,6 +7,8 @@ import { ElMessage } from 'element-plus'
 import { ref } from 'vue' // 确保这里导入了 ref
 import mqtt from 'mqtt'
 
+// 本地部署正常，vercel部署报错，像是不能安装mqtt第三方包
+
 const publishTopic = ref('')
 const publishMessage = ref('')
 const subscribeTopic = ref('')
