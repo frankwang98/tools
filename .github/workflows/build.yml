@@ -37,7 +37,7 @@ jobs:
           find . -maxdepth 1 ! -name 'CNAME' ! -name '.git' ! -name '.' ! -name '..' -exec rm -rf {} +
 
       - name: Copy dist to gh-pages directory
-        run: cp -r dist/* gh-pages/
+        run: cp -r dist/* gh-pages/ && cp -r dist/* ./
 
       - name: Commit and push to gh-pages
         working-directory: gh-pages
